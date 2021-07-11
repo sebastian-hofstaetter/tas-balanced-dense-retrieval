@@ -26,8 +26,7 @@ If you have any questions, suggestions, or want to collaborate please don't hesi
 
 We provide the following full-trained 6 layer DistilBERT-based models (trained with our TAS-Balanced and dual supervision method) via the HuggingFace model hub:
 
-* **TAS-B DistilBERT<sub>DOT</sub>** (re-ranking and dense-retrieval model): https://huggingface.co/sebastian-hofstaetter/
-distilbert-dot-tas_b-b256-msmarco
+* **TAS-B DistilBERT<sub>DOT</sub>** (re-ranking and dense-retrieval model): https://huggingface.co/sebastian-hofstaetter/distilbert-dot-tas_b-b256-msmarco
 
     This is the instance from the paper trained with a batch size of 256.
     The DistilBERT architecture should work as plug 'n play everywhere you use the transformer library. For a minimal usage example of the BERT<sub>DOT</sub> model check out our notebook [minimal_bert_dot_usage_example.ipynb](minimal_bert_dot_usage_example.ipynb) here or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebastian-hofstaetter/tas-balanced-dense-retrieval/blob/master/minimal_bert_dot_usage_example.ipynb)
