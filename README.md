@@ -34,7 +34,9 @@ distilbert-dot-tas_b-b256-msmarco
 
 ## Source Code
 
-*Coming soon*
+The full source-code for our paper is here, as part of our matchmaker library: https://github.com/sebastian-hofstaetter/matchmaker
+
+We have getting started guides for training teachers & students, as well as a range of other possibilities for dense retrieval training.
 
 ## Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling
 
